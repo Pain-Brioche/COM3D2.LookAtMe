@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 namespace COM3D2.LookAtMe
 {
     [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
-    public class Plugin : BaseUnityPlugin
+    public class LookAtMe : BaseUnityPlugin
     {
         private List<Maid> MaidList = new List<Maid>();
 
